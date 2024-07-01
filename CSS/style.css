@@ -425,7 +425,7 @@ form button:hover {
 
   .nav_links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
   }
 
@@ -452,6 +452,12 @@ form button:hover {
   .nav_links a,
   .footer-links a {
     font-size: 0.9rem;
+  }
+
+ .nav_links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
   }
 
   .footer-socials a {
