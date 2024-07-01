@@ -412,3 +412,50 @@ form button:hover {
     padding: 12px;
   }
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav_links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav_links a {
+    margin: 0.5rem 0;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-socials {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav_logo .logo,
+  .footer-logo .logo {
+    font-size: 1.2rem;
+  }
+
+  .nav_links a,
+  .footer-links a {
+    font-size: 0.9rem;
+  }
+
+  .footer-socials a {
+    font-size: 1.2rem;
+  }
+}
+
