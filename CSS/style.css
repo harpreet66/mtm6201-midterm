@@ -427,6 +427,7 @@ form button:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+     font-size: 0.9rem;
   }
 
   .nav_links a {
